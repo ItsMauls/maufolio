@@ -1,11 +1,8 @@
-import { Layout } from "@/components/layouts/Layout";
-import Image from "next/image";
-
 export default function Home() {
   
   return (
-    <>
-      <Layout />
-    </>
+    <section className="rounded-lg w-5/6 mx-auto bg-red-500">
+      <h1 className="">dwxxxxadasddam</h1>
+    </section>
   );
 }

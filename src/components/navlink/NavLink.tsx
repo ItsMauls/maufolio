@@ -6,15 +6,17 @@ import { ReactNode } from "react"
 interface NavLink {
     src : string
     children : ReactNode
+    className? : string
 }
 
 export const NavLink = (
 {
     src,
-    children
+    children,
+    ...props
 } : NavLink ) => {
     return (
-        <Link href={src}>
+        <Link href={src} {...props}>
             {children}
         </Link>
     )
