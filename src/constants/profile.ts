@@ -1,0 +1,1 @@
+export const LINKEDIN_PROFILE = 'https://www.linkedin.com/in/maulana-ibrahim-adiputra-200181190/'

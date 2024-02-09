@@ -1,10 +1,11 @@
+import { Layout } from "@/components/layouts/Layout";
 import Image from "next/image";
 
 export default function Home() {
   
   return (
-    <main>
-      <h1>Makan</h1>
-    </main>
+    <>
+      <Layout />
+    </>
   );
 }
