@@ -11,7 +11,8 @@ export default function Home() {
         image="/images/progame.webp"
         w={400}
         h={400}
-        link
+        link='/files/MAULANA_IBRAHIM_ADIPUTRA_CV.pdf'
+        linkTitle="Download CV"
       />
       <Card 
         description="See you on top yall!"

@@ -8,9 +8,10 @@ interface Card {
     title : string
     date : string
     image? : string | StaticImport | any
-    link? : boolean
+    link? : boolean | string | any
     w? : number
     h? : number
+    linkTitle? : string
 }
 
 export const Card = ({
@@ -21,7 +22,8 @@ export const Card = ({
     image,
     link,
     w,
-    h
+    h,
+    linkTitle
 } : Card) => {
     return (
     <div className='hover:bg-gray-800 rounded-xl p-2 my-4'>
@@ -39,8 +41,8 @@ export const Card = ({
         <article>
         <p className='text-white my-2'>{description}
         { link &&
-            <a href={'/files/MAULANA_IBRAHIM_ADIPUTRA_CV.pdf'} download>
-                <span className='text-blue-500 cursor-pointer'> Download CV</span>
+            <a href={link} download>
+                <span className='text-blue-500 cursor-pointer'> {linkTitle}</span>
             </a> }
         </p>
         </article>
