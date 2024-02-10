@@ -2,6 +2,7 @@
 import { ReactNode } from "react"
 import { Header } from "../header/Header"
 import { Navbar } from "../navbar/Navbar"
+import { Footer } from "../footer/Footer"
 
 interface Layout {
     children : ReactNode
@@ -18,6 +19,7 @@ export const Layout = (
             <Header />
             {children}
         </main>
+        <Footer/>
         </>
     )
 }

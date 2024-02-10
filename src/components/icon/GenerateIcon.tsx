@@ -1,19 +1,43 @@
 'use client'
 
 import { IonIcon } from '@ionic/react';
+import Link from 'next/link';
+import { NavLink } from '../navlink/NavLink';
 
 interface icon {
     i : string
+    url? : string
+    className? : string
 }
+
 
 export const GenerateIcon = (
 {
-    i
+    i,
+    url,
+    ...props
 } : icon) => {
+
+    const IconRedirect = () => {
+        return (
+            <NavLink src={url ?? ''}>
+                <IonIcon 
+                    {...props}
+                    icon={i}
+                />
+            </NavLink>
+        )
+    }
+
     return (
-        <IonIcon 
-            className='mx-1'
-            icon={i}
-        />
+        <>
+    {
+        url ? < IconRedirect /> : 
+            <IonIcon 
+                {...props}
+                icon={i}
+            />
+    }
+        </>
     )
 }
