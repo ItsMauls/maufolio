@@ -37,12 +37,12 @@ export const Card = ({
         </header>
         <h1 className='text-2xl font-bold text-white my-1'>{title}</h1>
         <article>
-        <h2 className='text-white my-2'>{description}
-        {link &&
+        <p className='text-white my-2'>{description}
+        { link &&
             <a href={'/files/MAULANA_IBRAHIM_ADIPUTRA_CV.pdf'} download>
                 <span className='text-blue-500 cursor-pointer'> Download CV</span>
             </a> }
-        </h2>
+        </p>
         </article>
         <Image 
             src={image}
