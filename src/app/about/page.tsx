@@ -1,5 +1,11 @@
 import { Card } from "@/components/content/Card";
 import { ABOUT_ME } from "@/constants/profile";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Maulana Ibrahim Adiputra",
+  description: 'My project',
+}
 
 export default function About() {
   

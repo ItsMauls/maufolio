@@ -1,4 +1,11 @@
+import type { Metadata } from 'next'
 import { Card } from "@/components/content/Card"
+ 
+export const metadata: Metadata = {
+  title: "Maulana Ibrahim's project",
+  description: 'My project',
+}
+ 
 
 export default function Projects () {
     return (

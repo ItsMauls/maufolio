@@ -22,6 +22,14 @@ export default function Home() {
         w={700}
         h={700}
       />
+      <Card 
+        description="Pls dont judge my face lol"
+        title="My Face When Coding"
+        date="10-02-2024"
+        image="/images/muka_coding.jpg"
+        w={400}
+        h={400}
+      />
     </section>
   );
 }

@@ -32,6 +32,7 @@ export const Card = ({
                 src={'/images/foto_linkedin.png'}
                 alt='Maulana-Ibrahim-Adiputra'
                 className='rounded-full aspect-square'
+                priority
                 width={50}
                 height={50}
             />
@@ -49,6 +50,7 @@ export const Card = ({
         <Image 
             src={image}
             alt='Me'
+            priority
             className='mx-auto rounded-lg'
             width={w || 500}
             height={h || 500}

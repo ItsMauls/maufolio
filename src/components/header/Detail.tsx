@@ -4,7 +4,7 @@ import { GenerateIcon } from "../icon/GenerateIcon"
 
 export const Detail = () => {
     return (
-        <div className="grid grid-cols-3 my-2 text-gray-400">
+        <div className="grid grid-cols-3 mt-5 text-gray-400">
                     {
                     deets.map((val) : ReactNode => 
                     {
