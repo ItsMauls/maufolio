@@ -1,1 +1,2 @@
 export const LINKEDIN_PROFILE = 'https://www.linkedin.com/in/maulana-ibrahim-adiputra-200181190/'
+export const LINK_CV = 'https://docs.google.com/document/d/1cebfAm9fn24_7CJJB_aJ12mstaY08CJpdZZFtd-zG3k/edit'

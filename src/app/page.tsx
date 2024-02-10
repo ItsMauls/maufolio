@@ -1,8 +1,26 @@
+import { Card } from "@/components/content/Card";
+
 export default function Home() {
   
   return (
-    <section className="rounded-lg w-5/6 mx-auto bg-red-500">
-      <h1 className="">dwxxxxadasddam</h1>
+    <section className="w-5/6 mx-auto">
+      <Card 
+        description="Welcome to my portfolio site, where I share updates on my projects. Explore what I'm working on. You can also download my CV to learn more about my skills and experience. Thanks for visiting!"
+        title="Hello World"
+        date="10-02-2024"
+        image="/images/progame.webp"
+        w={400}
+        h={400}
+        link
+      />
+      <Card 
+        description="See you on top yall!"
+        title="My Graduation Photo From Hacktiv8"
+        date="10-02-2024"
+        image="/images/hacktiv_graduates.jpg"
+        w={700}
+        h={700}
+      />
     </section>
   );
 }

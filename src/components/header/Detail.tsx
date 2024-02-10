@@ -6,7 +6,7 @@ export const Detail = () => {
     return (
         <div className="grid grid-cols-3 my-2 text-gray-400">
                     {
-                    deets.map((val, idx) : ReactNode => 
+                    deets.map((val) : ReactNode => 
                     {
                     return (
                     <>

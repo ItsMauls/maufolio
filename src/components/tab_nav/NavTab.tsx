@@ -10,7 +10,7 @@ export const NavTab = () => {
     const content = path === '/content'
     
     return (
-        <div className="mt-64 w-5/6 text-lg grid grid-cols-3 cursor-pointer mx-auto text-center text-white font-semibold">
+        <div className="mt-24 my-4 w-5/6 text-lg grid grid-cols-3 cursor-pointer mx-auto text-center text-white font-semibold">
             <NavLink src="/">
                 <h1 className={`${feed && 'border-b-4 border-blue-500'} hover:bg-gray-800 py-1`}>Feed</h1>
             </NavLink>
@@ -20,7 +20,7 @@ export const NavTab = () => {
             </NavLink>
 
             <NavLink src='/content'>
-            <h1 className={`${content && 'border-b-4 border-blue-500'} hover:bg-gray-800 py-1`}>Content</h1>
+            <h1 className={`${content && 'border-b-4 border-blue-500'} hover:bg-gray-800 py-1`}>Projects</h1>
             </NavLink>
             
         </div>
