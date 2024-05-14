@@ -38,7 +38,7 @@ export const Card = ({
             />
             <h1 className='px-2 font-semibold text-white'>Ibra<span className='text-gray-300 font-normal text-xs'> {date}</span></h1>
         </header>
-        <h1 className='text-2xl font-bold text-white my-1'>{title}</h1>
+        <h1 className='text-2xl font-bold my-2 text-white my-1'>{title}</h1>
         <article>
         <p className='text-white my-2'>{description}
         { link &&

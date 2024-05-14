@@ -10,7 +10,7 @@ export const NavTab = () => {
     const projects = path === '/projects'
     
     return (
-        <div className="mt-32 w-5/6 text-lg grid grid-cols-3 cursor-pointer mx-auto text-center text-white font-semibold">
+        <div className="mt-6 w-5/6 text-lg grid grid-cols-3 cursor-pointer mx-auto text-center text-white font-semibold">
             <NavLink src="/">
                 <h1 className={`${feed && 'border-b-4 border-blue-500'} hover:bg-gray-800 py-1`}>Feed</h1>
             </NavLink>

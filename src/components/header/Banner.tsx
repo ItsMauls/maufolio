@@ -8,6 +8,7 @@ export const Banner = () => {
             alt="Banner"
             width={800}
             height={800}
+            priority
         />
         </>
     )
