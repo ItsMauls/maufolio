@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Layout } from "@/components/layouts/Layout";
+import { Analytics } from "@vercel/analytics/react"
 import { METADATA_DESCRIPTION } from "@/constants/profile";
 const title = "Maulana Ibrahim Adiputra | Software Engineer"
 
@@ -43,6 +44,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-gray-950`}>
         <Layout>
           {children}
+          <Analytics />
         </Layout>
       </body>
     </html>
