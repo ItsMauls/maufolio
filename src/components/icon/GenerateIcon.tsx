@@ -1,7 +1,6 @@
 'use client'
 
 import { IonIcon } from '@ionic/react';
-import Link from 'next/link';
 import { NavLink } from '../navlink/NavLink';
 
 interface icon {

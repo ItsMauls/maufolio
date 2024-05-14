@@ -1,7 +1,6 @@
 import { Card } from "@/components/content/Card";
 
-export default function Home() {
-  
+export default function Home() {  
   return (
     <section className="w-5/6 mx-auto">
       <Card 

@@ -9,6 +9,8 @@ export const NavTab = () => {
     const about = path === '/about'
     const projects = path === '/projects'
     
+    if(feed) console.log('If you an user and see this logs, hey i need a job. 👀')
+    
     return (
         <div className="mt-6 w-5/6 text-lg grid grid-cols-3 cursor-pointer mx-auto text-center text-white font-semibold">
             <NavLink src="/">

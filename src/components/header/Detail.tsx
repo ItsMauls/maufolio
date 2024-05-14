@@ -6,11 +6,11 @@ export const Detail = () => {
     return (
         <div className="grid grid-cols-3 mt-5 text-gray-400">
                     {
-                    deets.map((val) : ReactNode => 
+                    deets.map((val, idx) : ReactNode => 
                     {
                     return (
                     <>
-                    <h1>
+                    <h1 key={idx}>
                         <span>
                             <GenerateIcon i={val.work.icon}/>
                         </span>
