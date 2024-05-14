@@ -17,8 +17,8 @@ export default function Home() {
       <Card 
         description="Here's my another web portfolio"
         link={'http://mauladiputra.site'}
-        linkTitle="Another Portofolio"
-        title="Wanna see another of me? 👀"
+        linkTitle="Another Portfolio"
+        title="Wanna see another side of me? 👀"
         date="14-05-2024"
         image="/images/work-life-balance.jpg"
         w={700}
