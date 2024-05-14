@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://mauportofolio.site
+
+# Sitemaps
+Sitemap: https://mauportofolio.site/sitemap.xml
